@@ -1,0 +1,2 @@
+QUE1:Getting started with Linux basic commands and directory structure, execute file, directory
+operations.
