@@ -29,7 +29,7 @@ Special Directories
 *******************
 	1 )Current Directory          ====>        .
 	2 ) Parent directory of 
-	the current directory      ====>           ..
+	the current directory         ====>        ..
 	3 )Home Directory             ====>        ~
 	4 )Root Directory             ====>        /
 	5 )Another user’s directory   ====>        ~<username>
@@ -49,7 +49,7 @@ Listing Files And Directories
 	3 )ls -l -h              ----    same as above command but size will
 	be in human readable forms
 	4 )ls -F                 ----    marks all executables with * and
-	directories with /
+					directories with /
 	5 )ls —color             ----    shows a coloured listing of files
 	6 )ls -a                 ----    shows all files in the present directory
 	including special dot files
@@ -111,16 +111,18 @@ File Content
 	/usr user utilities and applications
 	/var variable files
 	/root home directory of the root user
-	Executing files
-	how to execute a file in linux
+	
+Executing Files
+***************
+	How to execute a file in linux
 	cd to the directory which contains the file to e executed
 	type chmod +x <name_of_file>
-	type sh ./<name_of_file>
+	type  ./<name_of_file>
 
 System Shutdown Commands
 ************************
 
-	1 ) halt                   ----      Brings the system down immediately
+	1 ) 	halt                   ----      Brings the system down immediately
 	2 )	init 0                 ----      Powers off the system using predefined scripts to synchronize and clean 										up the system prior to shutting down
 	3 )	init 6                 ----      Reboots the system by shutting it down completely and then restarting it
 	4 )	poweroff               ----      Shuts down the system by powering off
@@ -129,8 +131,11 @@ System Shutdown Commands
 
 Ip Commands	
 ************
-	1 ) ip addr show               				====>      show ip address of a system
+	1 ) ip addr show               		    ====>      show ip address of a system
 	2 ) ip addr add 192.168.50.5 dev eth1       ====>	   assign IP Address to a specific interface
 	3 ) ip addr del 192.168.50.5/24 dev eth1    ====>      remove an assigned IP address from the given 																interface 
-	4 )# ip route show 							====>      check the route table information
+	4 )# ip route show 		            ====>      check the route table information
 
+Result
+******
+	Concepts to linux command has been understood clearly .
