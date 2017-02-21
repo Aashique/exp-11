@@ -100,8 +100,8 @@ Job Control:-
 	*	 fg --> Used to put a process in the foreground
 
 
-	Permissions
-	***********
+Permissions
+***********
 
 	1 )chmod - modify file access rights
     2 )su - temporarily become the superuser
