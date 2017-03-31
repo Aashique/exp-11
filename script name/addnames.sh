@@ -16,7 +16,7 @@ else
 fi
 name=$2;
 #echo $name;
-if grep  "$name" $file
+if grep  -i -w "$name" $file
 then
    echo "Already present"; # code if found
 else
